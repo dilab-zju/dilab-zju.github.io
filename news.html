@@ -95,8 +95,62 @@
 		<img src="images/news/blog-post-1.jpg" alt="">
 	</div>
 	<br>
-	<br>        		
-	<h3 class="post-title">实验室关于构建“数据智能普适化平台”的研究目标</h3>
+	<br>   
+	<h3 class="post-title">实验室陈刚教授团队项目获2020年度国家科技进步一等奖提名</h3>
+	<div class="post-meta">
+        <ul>
+          <li>
+            <i class="ion-calendar"></i> 2, Jan 2020
+          </li>
+          <li>
+           <i class="ion-pricetags"></i> 国家科技进步奖, 项目, 时序大数据，应用
+          </li>
+        </ul>
+    </div>
+	<div class="post-content">
+<p>实验室陈刚教授团队项目“时序大数据实时智能处理技术及平台应用”获2020年度国家科技进步一等奖提名。</p>
+<p>公式材料如下：</p>
+<p><a href="docs/国家科学技术奖提名公示信息表-时序大数据实时智能处理技术及平台应用.docx">国家科学技术奖提名公示信息表-时序大数据实时智能处理技术及平台应用.docx</a></p>
+		<p><br> </p>
+		<hr />
+	</div>
+	<p><br></p>       		
+        		
+        								<p><br></p>
+
+
+	<h3 class="post-title">恭喜庞志飞同学在顶级期刊TKDE2019上发表论文！</h3>
+	<div class="post-meta">
+        <ul>
+          <li>
+            <i class="ion-calendar"></i> 7, OCT 2019
+          </li>
+          <li>
+           <i class="ion-pricetags"></i> TKDE, 论文, neural networks，spatio-temporal index，deep learning，query
+          </li>
+        </ul>
+    </div>
+	<div class="post-content">
+<p>NEIST: a Neural-Enhanced Index for Spatio-Temporal Queries</p>
+<p><b>作者</b> Sai Wu, Zhifei Pang, Gang Chen, Yunjun Gao, Cenjiong Zhao, Shili Xiang</p>
+<p><b>论文链接</b> https://www.computer.org/csdl/journal/tk/5555/01/08861025/1dVZAm21LyM</p>
+<p><b>数据集</b> https://www.kaggle.com/crailtap/taxi-trajectory/version/1</p>
+<p><b>相关代码</b> http://10.214.224.201/pangzhifei/neist.git</p>
+<p><b>主要工作</b> </p>
+<p>TPR树是针对移动对象广泛应⽤的时空索引。TPR树的基本假设是移动对象都呈直线运动，因此当预测查询的时间 离当前时间越久，查询准确率会急剧下降，并且由于查询范围的扩大导致节点之间overlap过大，从而使得查询性能也急剧下降。针对以上问题，本课题提出了 NEIST（Neural-Enhanced Index for SpatioTemporal Queries），引入Ssq2seq模型来预测移动物体的轨迹，并替换原有的TPR树的直线模型，提出了新的索引结构 TS-TPR 以及相关理论。实验证明，TS-TPR比TPR树准确率高70%以上，性能提高3倍以上。</p>
+<p><b>主要贡献点</b> </p>
+<p>1. 构造了适用于城市车辆的轨迹预测的深度学习模型</p>
+<p>2. 提出TS-TPR索引结构，并提出了massive batch loading算法，同时给出了时间以及空间复杂度</p>
+<p>3. 提出了利用LSH聚类的加速TS-TPR查询的算法</p>
+<p>4. 实验证明，TS-TPR比TPR树准确率高70%以上，性能提高3倍以上。</p>
+		<p><br> </p>
+		<hr />
+	</div>
+	<p><br></p>       		
+        		
+        								<p><br></p>
+						
+	<h3 class="post-title">实验室关于构建“数据智能普适化平台”相关研究的讨论</h3>
 	<div class="post-meta">
         <ul>
           <li>
@@ -122,8 +176,37 @@
 	<p><br></p>       		
         		
         								<p><br></p>
-						
-
+	<h3 class="post-title">恭喜王皓波同学在IJCAI2019上发表论文！</h3>
+	<div class="post-meta">
+        <ul>
+          <li>
+            <i class="ion-calendar"></i> JUL 2019
+          </li>
+          <li>
+           <i class="ion-pricetags"></i> IJCAI, 论文, Multi-Label Learning，Partial Label Learning，Manifold Learning，GBDT
+          </li>
+        </ul>
+    </div>
+	<div class="post-content">
+<p>Discriminative and Correlative Partial Multi-Label Learning</p>
+<p><b>作者</b> Haobo Wang, Weiwei Liu, Yang Zhao, Chen Zhang, Tianlei Hu and Gang Chen</p>
+<p><b>论文链接</b> https://www.ijcai.org/proceedings/2019/512</p>
+<p><b>数据集</b> http://mulan.sourceforge.net/datasets-mlc.html</p>
+<p><b>相关代码</b> http://10.214.224.201/whb/ijcai-2019-discriminative-and-correlative-partial-multi-label-leanring</p>
+<p><b>主要工作</b> </p>
+<p>偏多标签学习（Partial Multi-Label Learning, PML）假设每个样本关联了一个候选标签集，其中，有多个标签是真实标签。PML问题是多标签问题的一个弱监督学习形式，最大的两个挑战是消歧和提取多标签之间的相关性（对应Partial Label Learning和Multi-Label Learning）。</p>
+<p>本文提出的算法为两个阶段，在第一个阶段，我们假设特征空间和标签空间具有相同的流形结构。因此我们采用了局部线性嵌入算法得到了样本在标签空间的低维表示。特别的，我们在原LLE的目标函数中，加入了带有弱监督标签信息的约束。因此，第一阶段可以将逻辑标签值转化成数值标签，达到消除歧义的作用。</p>
+<p>完成数据集转化后，我们认为该数值化标记能够反应较为真实的标签信息。在第二阶段，我们要从数据集中学习得到一个多标签分类器。本文提出了一个基于GBDT的多标签算法。在GBDT的每个Boosting轮次，我们都使用前面学到的标签增强特征空间。由于每个弱分类器能够捕获一定的标签信息，因此，模型可以自动学习标签之间的相关性，达到更好的泛化性能。</p>
+<p><b>主要贡献点</b> </p>
+<p>1. 现有的算法主要关注消歧和提取相关性中的一个方面，而我们提出了一个双阶段的PML算法，有效解决了这个问题。</p>
+<p>2. 第一阶段的流形算法中，我们的约束是精心设计的，能够更好地学习得到良好的Confidence信息。</p>
+<p>3. 我们首次提出了基于特征增强的多标签GBDT回归算法。</p>
+		<p><br> </p>
+		<hr />
+	</div>
+	<p><br></p>       		
+        		
+        								<p><br></p>
 	<h3 class="post-title">数据智能实验室2019新版主页发布上线！</h3>
 	<div class="post-meta">
         <ul>
