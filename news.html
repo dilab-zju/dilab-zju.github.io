@@ -129,16 +129,16 @@
             <i class="ion-calendar"></i> 7, OCT 2019
           </li>
           <li>
-           <i class="ion-pricetags"></i> TKDE, 论文, neural networks，spatio-temporal index，deep learning，query
+           <i class="ion-pricetags"></i> TKDE, 论文, Neural Networks，Spatio-temporal Index，Deep Learning，Query
           </li>
         </ul>
     </div>
 	<div class="post-content">
 <p>NEIST: a Neural-Enhanced Index for Spatio-Temporal Queries</p>
 <p><b>作者</b> Sai Wu, Zhifei Pang, Gang Chen, Yunjun Gao, Cenjiong Zhao, Shili Xiang</p>
-<p><b>论文链接</b> https://www.computer.org/csdl/journal/tk/5555/01/08861025/1dVZAm21LyM</p>
-<p><b>数据集</b> https://www.kaggle.com/crailtap/taxi-trajectory/version/1</p>
-<p><b>相关代码</b> http://10.214.224.201/pangzhifei/neist.git</p>
+<p><b>论文链接</b> <a href="https://www.computer.org/csdl/journal/tk/5555/01/08861025/1dVZAm21LyM" target="_blank">https://www.computer.org/csdl/journal/tk/5555/01/08861025/1dVZAm21LyM</a></p>
+<p><b>数据集</b> <a href="https://www.kaggle.com/crailtap/taxi-trajectory/version/1" target="_blank">https://www.kaggle.com/crailtap/taxi-trajectory/version/1</a></p>
+<p><b>相关代码</b> <a href="http://10.214.224.201/pangzhifei/neist.git" target="_blank">http://10.214.224.201/pangzhifei/neist.git</a></p>
 <p><b>主要工作</b> </p>
 <p>TPR树是针对移动对象广泛应⽤的时空索引。TPR树的基本假设是移动对象都呈直线运动，因此当预测查询的时间 离当前时间越久，查询准确率会急剧下降，并且由于查询范围的扩大导致节点之间overlap过大，从而使得查询性能也急剧下降。针对以上问题，本课题提出了 NEIST（Neural-Enhanced Index for SpatioTemporal Queries），引入Ssq2seq模型来预测移动物体的轨迹，并替换原有的TPR树的直线模型，提出了新的索引结构 TS-TPR 以及相关理论。实验证明，TS-TPR比TPR树准确率高70%以上，性能提高3倍以上。</p>
 <p><b>主要贡献点</b> </p>
@@ -193,9 +193,9 @@
 	<div class="post-content">
 <p>Discriminative and Correlative Partial Multi-Label Learning</p>
 <p><b>作者</b> Haobo Wang, Weiwei Liu, Yang Zhao, Chen Zhang, Tianlei Hu and Gang Chen</p>
-<p><b>论文链接</b> https://www.ijcai.org/proceedings/2019/512</p>
-<p><b>数据集</b> http://mulan.sourceforge.net/datasets-mlc.html</p>
-<p><b>相关代码</b> http://10.214.224.201/whb/ijcai-2019-discriminative-and-correlative-partial-multi-label-leanring</p>
+<p><b>论文链接</b> <a href="https://www.ijcai.org/proceedings/2019/512" target="_blank">https://www.ijcai.org/proceedings/2019/512</a></p>
+<p><b>数据集</b> <a href="http://mulan.sourceforge.net/datasets-mlc.html" target="_blank">http://mulan.sourceforge.net/datasets-mlc.html</a></p>
+<p><b>相关代码</b> <a href="http://10.214.224.201/whb/ijcai-2019-discriminative-and-correlative-partial-multi-label-leanring" target="_blank">http://10.214.224.201/whb/ijcai-2019-discriminative-and-correlative-partial-multi-label-leanring</a></p>
 <p><b>主要工作</b> </p>
 <p>偏多标签学习（Partial Multi-Label Learning, PML）假设每个样本关联了一个候选标签集，其中，有多个标签是真实标签。PML问题是多标签问题的一个弱监督学习形式，最大的两个挑战是消歧和提取多标签之间的相关性（对应Partial Label Learning和Multi-Label Learning）。</p>
 <p>本文提出的算法为两个阶段，在第一个阶段，我们假设特征空间和标签空间具有相同的流形结构。因此我们采用了局部线性嵌入算法得到了样本在标签空间的低维表示。特别的，我们在原LLE的目标函数中，加入了带有弱监督标签信息的约束。因此，第一阶段可以将逻辑标签值转化成数值标签，达到消除歧义的作用。</p>
