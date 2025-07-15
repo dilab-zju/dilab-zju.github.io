@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Aviato E-Commerce Template">
+  
+  <meta name="author" content="Themefisher.com">
+
+  <title>浙江大学数据智能实验室</title>
+
+  <!-- Mobile Specific Meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Ionic Icon Css -->
+  <link rel="stylesheet" href="plugins/Ionicons/css/ionicons.min.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- Magnify Popup -->
+  <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="body">
+
+<!-- Header Start -->
+<header class="navigation">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- header Nav Start -->
+				<nav class="navbar">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="index.html">
+								<img src="images/logo.png" height="55" alt="Logo">
+							</a>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html">首页</a></li>
+								<li><a href="team.html">研究团队</a></li>
+								<li><a href="publications.html">研究成果</a></li>								
+								<li><a href="news.html">动态一览</a></li>
+								<li><a href="enroll.html">招生合作</a></li>
+								<li><a href="contact.html">联系我们</a></li>
+							</ul>
+							</div><!-- /.navbar-collapse -->
+							</div><!-- /.container-fluid -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			</header><!-- header close -->
+
+<section class="page-title bg-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>我们的日常动态</h1>
+          <p>实验室的日常新闻动态、通知公告、科研进展、活动开展状况。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+        		<div class="post">
+	<div class="post-media post-thumb">
+		<img src="images/news/blog-post-1.jpg" alt="">
+	</div>
+	<br>
+	<br>   
+
+	<h3 class="post-title">恭喜庞志飞同学在顶级期刊TKDE2019上发表论文！</h3>
+	<div class="post-meta">
+        <ul>
+          <li>
+            <i class="ion-calendar"></i> 7, OCT 2019
+          </li>
+          <li>
+           <i class="ion-pricetags"></i> TKDE, 论文, Neural Networks，Spatio-temporal Index，Deep Learning，Query
+          </li>
+        </ul>
+    </div>
+	<div class="post-content">
+<p>NEIST: a Neural-Enhanced Index for Spatio-Temporal Queries</p>
+<p><b>作者</b> Sai Wu, Zhifei Pang, Gang Chen, Yunjun Gao, Cenjiong Zhao, Shili Xiang</p>
+<p><b>论文链接</b> <a href="https://www.computer.org/csdl/journal/tk/5555/01/08861025/1dVZAm21LyM" target="_blank">https://www.computer.org/csdl/journal/tk/5555/01/08861025/1dVZAm21LyM</a></p>
+<p><b>数据集</b> <a href="https://www.kaggle.com/crailtap/taxi-trajectory/version/1" target="_blank">https://www.kaggle.com/crailtap/taxi-trajectory/version/1</a></p>
+<p><b>相关代码</b> <a href="http://10.214.224.201/pangzhifei/neist.git" target="_blank">http://10.214.224.201/pangzhifei/neist.git</a></p>
+<p><b>主要工作</b> </p>
+<p>TPR树是针对移动对象广泛应⽤的时空索引。TPR树的基本假设是移动对象都呈直线运动，因此当预测查询的时间 离当前时间越久，查询准确率会急剧下降，并且由于查询范围的扩大导致节点之间overlap过大，从而使得查询性能也急剧下降。针对以上问题，本课题提出了 NEIST（Neural-Enhanced Index for SpatioTemporal Queries），引入Ssq2seq模型来预测移动物体的轨迹，并替换原有的TPR树的直线模型，提出了新的索引结构 TS-TPR 以及相关理论。实验证明，TS-TPR比TPR树准确率高70%以上，性能提高3倍以上。</p>
+<p><b>主要贡献点</b> </p>
+<p>1. 构造了适用于城市车辆的轨迹预测的深度学习模型</p>
+<p>2. 提出TS-TPR索引结构，并提出了massive batch loading算法，同时给出了时间以及空间复杂度</p>
+<p>3. 提出了利用LSH聚类的加速TS-TPR查询的算法</p>
+<p>4. 实验证明，TS-TPR比TPR树准确率高70%以上，性能提高3倍以上。</p>
+		<p><br> </p>
+		<hr />
+	</div>
+	<p><br></p>       		
+        		
+        								<p><br></p>
+						
+	<h3 class="post-title">实验室关于构建“数据智能普适化平台”相关研究的讨论</h3>
+	<div class="post-meta">
+        <ul>
+          <li>
+            <i class="ion-calendar"></i> 29, AUG 2019
+          </li>
+          <li>
+           <i class="ion-pricetags"></i> 研究目标，数据智能，人工智能，普适化，平台
+          </li>
+        </ul>
+    </div>
+	<div class="post-content">
+<p>实验室目前的研究目标主要定位为构建“数据智能普适化平台”，降低人工智能在各个领域的使用门槛。在这个平台的建设中，可以从以下几个方面的研究进行展开：
+<p>1. 可以以文本数据的知识抽取 (Extraction) 和知识获取 (Retrieval) 作为这个普适化平台的一项主要功能。知识抽取的数据源是一堆海量文本数据（形式不限，可以是长、短自由文本或者半结构化文本），输出是知识条的集合；知识获取的输入是知识库（存放知识条）以及一个用户查询，输出是相关的知识条列表按照排序方式给出。知识条是比较泛的概念，可以是一个实体、一个关系、一个规则等等。</p>
+<p>2. 降低用户使用门槛，比如由自然语言直接转成SQL语言、或者转成其他半结构化的语言比如XQuery等。这项研究可以通用于一般的数据库查询，而知识获取可以作为这一项的一个应用。</p>
+<p>3. 降低算法工程师的人力代价，比如一次建模后可以“一劳永逸”地保持标注和反馈数据的增量更新，系统在更新后能够适应、迁移到新的数据集而不需要算法工程师干预。</p>
+<p>4. 降低算法模型对数据标注的饥渴程度，使用创新的算法模型（比如半监督模型），实现“标注少，学习快”的目标。</p>
+<p>5. 提高信息抽取、知识抽取过程中的信息泛化和保护，使得知识更加General，而那些特殊Adhoc的信息不会带到Output里面，从而保护数据隐私。知识更加General也是知识抽取的一大目标。</p>
+<p>6. 机器学习所使用的计算平台应提供海量数据上的高速学习，支持“增量标注”的学习，支持分布式的“联邦学习”，学习任务之间可以有某些“计算共享”来加速。 </p>
+<p>实验室将在这些目标里面探索研究问题，实现创新的方法，并将这些创新方法和应用Physically添加到真正的平台里面去。</p>
+		<p><br> </p>
+		<hr />
+	</div>
+	<p><br></p>       		
+        		
+        								<p><br></p>
+	<h3 class="post-title">恭喜王皓波同学在IJCAI2019上发表论文！</h3>
+	<div class="post-meta">
+        <ul>
+          <li>
+            <i class="ion-calendar"></i> JUL 2019
+          </li>
+          <li>
+           <i class="ion-pricetags"></i> IJCAI, 论文, Multi-Label Learning，Partial Label Learning，Manifold Learning，GBDT
+          </li>
+        </ul>
+    </div>
+	<div class="post-content">
+<p>Discriminative and Correlative Partial Multi-Label Learning</p>
+<p><b>作者</b> Haobo Wang, Weiwei Liu, Yang Zhao, Chen Zhang, Tianlei Hu and Gang Chen</p>
+<p><b>论文链接</b> <a href="https://www.ijcai.org/proceedings/2019/512" target="_blank">https://www.ijcai.org/proceedings/2019/512</a></p>
+<p><b>数据集</b> <a href="http://mulan.sourceforge.net/datasets-mlc.html" target="_blank">http://mulan.sourceforge.net/datasets-mlc.html</a></p>
+<p><b>相关代码</b> <a href="http://10.214.224.201/whb/ijcai-2019-discriminative-and-correlative-partial-multi-label-leanring" target="_blank">http://10.214.224.201/whb/ijcai-2019-discriminative-and-correlative-partial-multi-label-leanring</a></p>
+<p><b>主要工作</b> </p>
+<p>偏多标签学习（Partial Multi-Label Learning, PML）假设每个样本关联了一个候选标签集，其中，有多个标签是真实标签。PML问题是多标签问题的一个弱监督学习形式，最大的两个挑战是消歧和提取多标签之间的相关性（对应Partial Label Learning和Multi-Label Learning）。</p>
+<p>本文提出的算法为两个阶段，在第一个阶段，我们假设特征空间和标签空间具有相同的流形结构。因此我们采用了局部线性嵌入算法得到了样本在标签空间的低维表示。特别的，我们在原LLE的目标函数中，加入了带有弱监督标签信息的约束。因此，第一阶段可以将逻辑标签值转化成数值标签，达到消除歧义的作用。</p>
+<p>完成数据集转化后，我们认为该数值化标记能够反应较为真实的标签信息。在第二阶段，我们要从数据集中学习得到一个多标签分类器。本文提出了一个基于GBDT的多标签算法。在GBDT的每个Boosting轮次，我们都使用前面学到的标签增强特征空间。由于每个弱分类器能够捕获一定的标签信息，因此，模型可以自动学习标签之间的相关性，达到更好的泛化性能。</p>
+<p><b>主要贡献点</b> </p>
+<p>1. 现有的算法主要关注消歧和提取相关性中的一个方面，而我们提出了一个双阶段的PML算法，有效解决了这个问题。</p>
+<p>2. 第一阶段的流形算法中，我们的约束是精心设计的，能够更好地学习得到良好的Confidence信息。</p>
+<p>3. 我们首次提出了基于特征增强的多标签GBDT回归算法。</p>
+		<p><br> </p>
+		<hr />
+	</div>
+	<p><br></p>       		
+        		
+        								<p><br></p>
+	<h3 class="post-title">数据智能实验室2019新版主页发布上线！</h3>
+	<div class="post-meta">
+        <ul>
+          <li>
+            <i class="ion-calendar"></i> 20, FEB 2019
+          </li>
+          <li>
+           <i class="ion-pricetags"></i> 主页，新版，上线
+          </li>
+        </ul>
+    </div>
+	<div class="post-content">
+		<p>2019年2月20日，浙江大学数据智能实验室2019年新版主页正式发布上线，功能和界面采用简洁科技风格，更新了实验室最新的相关介绍！ </p>
+		<p><br> </p>
+		<hr />
+	</div>
+	<p><br></p>
+	
+	<h3 class="post-title">实验室最新GPU服务器资源说明</h3>
+	<div class="post-meta">
+        <ul>
+          <li>
+            <i class="ion-calendar"></i> 27, DEC 2018
+          </li>
+          <li>
+           <i class="ion-pricetags"></i> GPU，服务器，监控
+          </li>
+        </ul>
+    </div>
+	<div class="post-content">
+		<p>实验室目前已经采购了多块大显存容量的GPU，并配置在几台服务器上。为有效平衡大家的资源利用，由骆歆远和史飞超搭建了GPU服务器资源监控页面，大家可以参照 <a href=http://10.214.224.201:8000>此页面</a> 选择想要进行模型训练的服务器。服务器的使用账号请联系管理员骆歆远。</p>
+		<p><br> </p>
+		<hr />
+	</div>
+	<p><br></p>
+	
+	<h3 class="post-title">实验室新版GitLab上线！</h3>
+	<div class="post-meta">
+        <ul>
+          <li>
+            <i class="ion-calendar"></i> 11, OCT 2018
+          </li>
+          <li>
+           <i class="ion-pricetags"></i> GitLab，新版，上线
+          </li>
+        </ul>
+    </div>
+	<div class="post-content">
+		<p>经过系统管理员骆歆远的努力，实验室目前已经在新的服务器上重新部署了最新版本的GitLab，在网站交互和性能上大幅度提高体验。新版访问地址仍然和以前一样保持不变，<a href=http://10.214.224.201>http://10.214.224.201</a>，并且原先GitLab的数据都已经进行了迁移，欢迎大家测试使用。新用户请联系管理员骆歆远进行注册。</p>
+		<p><br> </p>
+		<hr />
+	</div>
+	<p><br></p>
+	
+	<div class="post-media post-media-audio">
+		<iframe height="400" src="https://www.youtube.com/embed/dERSHqp7lpM"  allowfullscreen></iframe>
+	</div>
+	<h3 class="post-title">恭喜李环同学在数据库顶级会议VLDB上发表Demo论文！</h3>
+	<div class="post-meta">
+        <ul>
+          <li>
+            <i class="ion-calendar"></i> 4, May 2018
+          </li>
+          <li>
+           <i class="ion-pricetags"></i> VLDB，论文，indoor positioning
+          </li>
+        </ul>
+    </div>
+	<div class="post-content">
+		<p>恭喜实验室李环同学发表的Demo论文 TRIPS: a system for translating raw indoor positioning data into visual mobility semantics 被数据库顶级会议VLDB接收！</p>
+		<p>以上视频是该论文的一个系统演示，可在<a href=https://longaspire.github.io/trips/>该页面</a>进一步查看论文的相关介绍内容。</p>
+		<p><br> </p>
+	</div>
+
+</div>
+
+      		</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- footer Start -->
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+						<li><a href="index.html">实验室简介</a></li>
+						<li><a href="https://www.amap.com/search?id=B023B189DM&city=330106&geoobj=120.119618%7C30.261199%7C120.127682%7C30.266947&query_type=IDQ&query=%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E7%8E%89%E6%B3%89%E6%A0%A1%E5%8C%BA%E5%9C%9F%E6%9C%A8%E7%A7%91%E6%8A%80%E9%A6%86&zoom=17.08">地理位置</a></li>
+						<li><a href="team.html">团队介绍</a></li>
+						<li><a href="enroll.html">招生合作</a></li>
+						<li><a href="contact.html">联系我们</a></li>
+					</ul>
+				</div>
+				<p class="copyright">地址：浙江省杭州市西湖区浙大路38号浙江大学玉泉校区土木科技馆5楼 邮编：310027
+				<p class="copyright">电子邮件：<a href=mailto:chenk@zju.edu.cn>chenk@zju.edu.cn</a> 电话：(86) 571-87952026 传真：(86) 571-87952026 
+				<p class="copyright">Copyright 2019 &copy; Design & Developed by DILab-ZJU. All rights reserved.
+					<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+    
+    <!-- <script src="js/jquery.counterup.js"></script> -->
+    
+    <!-- Main jQuery -->
+   
+    <script src="https://code.jquery.com/jquery-git.min.js"></script>
+    <!-- Bootstrap 3.1 -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!--  -->
+    <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- Mixit Up JS -->
+    <script src="plugins/mixitup/dist/mixitup.min.js"></script>
+    <!-- <script src="plugins/count-down/jquery.lwtCountdown-1.0.js"></script> -->
+    <script src="plugins/SyoTimer/build/jquery.syotimer.min.js"></script>
+
+
+    <!-- Form Validator -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+
+
+    
+       
+
+    <script src="js/script.js"></script>
+    
+
+
+
+  </body>
+  </html>
